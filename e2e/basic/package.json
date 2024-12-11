@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "rsbuild build",
+    "watch": "rsbuild build -w",
+    "start": "node ./dist",
+    "migrate": "node ./dist/migrate",
+    "openapi-spec": "node ./dist/openapi-spec"
+  },
+  "dependencies": {
+    "@loopback/core": "^6.1.5",
+    "@loopback/rest": "^14.0.8",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@loopback/testlab": "^7.0.7",
+    "@rsbuild/core": "^1.1.9",
+    "@rsbuild/plugin-node-polyfill": "^1.2.0",
+    "typescript": "^5.7.2"
+  }
+}
